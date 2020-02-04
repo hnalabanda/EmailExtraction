@@ -1,0 +1,12 @@
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\obj\Debug\netcoreapp3.1\EmailExtraction.csprojAssemblyReference.cache
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\obj\Debug\netcoreapp3.1\EmailExtraction.AssemblyInfoInputs.cache
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\obj\Debug\netcoreapp3.1\EmailExtraction.AssemblyInfo.cs
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\Data\sample.txt
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.exe
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.deps.json
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.runtimeconfig.json
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.runtimeconfig.dev.json
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.dll
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\bin\Debug\netcoreapp3.1\EmailExtraction.pdb
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\obj\Debug\netcoreapp3.1\EmailExtraction.dll
+C:\Training\EmailExtraction\EmailExtraction\EmailExtraction\obj\Debug\netcoreapp3.1\EmailExtraction.pdb
