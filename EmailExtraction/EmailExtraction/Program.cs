@@ -20,9 +20,7 @@ namespace EmailExtraction
             Dictionary<string, int> emailDictionary = new Dictionary<string, int>();
 
             //finding domains with regular expression
-            string
-                pattern =
-                    @"\w@(\w*\.\w+){1,3}";
+            string pattern = @"\w@(\w*\.\w+){1,3}";
             Regex domainSearch = new Regex(pattern);
 
             //storing domains and counts in dictionary
