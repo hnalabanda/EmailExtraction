@@ -20,13 +20,14 @@ namespace EmailExtraction
             Dictionary<string, int> emailDictionary = new Dictionary<string, int>();
 
             //finding domains with regular expression
-            string pattern = @"\w@(\w*\.\w+){1,3}";
-            Regex domainSearch = new Regex(pattern);
+            //string domainRegExPattern = @"\w@(?<domain>\w*)(?<tld>.\w*\b)";
+            string domainRegExPattern = @"\S+@(?<domain>\S+)\b";
+            Regex domainSearch = new Regex(domainRegExPattern);
 
             //storing domains and counts in dictionary
             foreach (Match result in domainSearch.Matches(textInput))
             {
-                var domain = result.Groups[1].Value;
+                var domain = result.Groups["domain"].Value;
                 if (emailDictionary.ContainsKey(domain))
                 {
                     emailDictionary[domain]++;
@@ -37,10 +38,16 @@ namespace EmailExtraction
                 }
             }
 
-            // Prints the Dictionary with some padding
-            foreach (var entry in emailDictionary)
+            // Sort the domains by the X most common
+            List<KeyValuePair<string, int>> domainList = emailDictionary.ToList();
+            domainList.Sort((left, right) => right.Value.CompareTo(left.Value));
+            
+            //Print the top X domains
+            int numberOfDomainsToPrint = 10;
+            Console.WriteLine($"These are the top {numberOfDomainsToPrint} domains in the file {fileName}");
+            for (var i = 0; i < numberOfDomainsToPrint; i++)
             {
-                Console.WriteLine("The domain " + entry.Key + " appears " + entry.Value + " times.");
+                Console.WriteLine($"The domain {domainList[i].Key} appears {domainList[i].Value} Times");
             }
         }
     }
