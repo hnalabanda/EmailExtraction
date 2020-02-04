@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace EmailExtraction
 {
@@ -7,11 +8,14 @@ namespace EmailExtraction
     {
         static void Main(string[] args)
         {
+            
          //   System.IO.StreamReader (Data/sample.txt);
          string textInput = File.ReadAllText("Data/sample.txt");
-         string[]inputArray = textInput.Split(" ");
-         // Console.Write(inputArray[1]);
-         int counter = 0;
+         
+         //using array method
+      /*   string[]inputArray = textInput.Split(" ");
+        int counter = 0;
+        
          for (int i = 0; i < inputArray.Length; i++)
          {
              if (inputArray[i].Contains("@softwire.com"))
@@ -20,7 +24,12 @@ namespace EmailExtraction
                  //Console.WriteLine(inputArray[i]);
              }
          }
-         Console.WriteLine("The Number of Softwire emails is " +counter);
+        */
+         
+         //using reg expression
+         string pattern = "\\w(@softwire.com)";
+         Regex rx=new Regex(pattern);
+         Console.WriteLine("The Number of Softwire emails is " +rx.Matches(textInput).Count);
         }
     }
 }

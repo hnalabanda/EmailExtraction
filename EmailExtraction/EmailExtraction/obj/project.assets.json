@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\JoeCra\\.nuget\\packages\\": {}
+    "C:\\Users\\HemNal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoeCra\\git\\techswitch\\EmailExtraction\\EmailExtraction\\EmailExtraction\\EmailExtraction.csproj",
+      "projectUniqueName": "C:\\Training\\EmailExtraction\\EmailExtraction\\EmailExtraction\\EmailExtraction.csproj",
       "projectName": "EmailExtraction",
-      "projectPath": "C:\\Users\\JoeCra\\git\\techswitch\\EmailExtraction\\EmailExtraction\\EmailExtraction\\EmailExtraction.csproj",
-      "packagesPath": "C:\\Users\\JoeCra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JoeCra\\git\\techswitch\\EmailExtraction\\EmailExtraction\\EmailExtraction\\obj\\",
+      "projectPath": "C:\\Training\\EmailExtraction\\EmailExtraction\\EmailExtraction\\EmailExtraction.csproj",
+      "packagesPath": "C:\\Users\\HemNal\\.nuget\\packages\\",
+      "outputPath": "C:\\Training\\EmailExtraction\\EmailExtraction\\EmailExtraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JoeCra\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HemNal\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\JoeCra\\.dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
